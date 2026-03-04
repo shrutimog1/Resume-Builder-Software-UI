@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resume Preview</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="preview-page">
+
+<div id="resume" class="resume-wrapper">
+
+    <div class="sidebar section">
+        <img id="profileImage" class="profile-photo">
+
+        <div class="section">
+            <h3>Contact</h3>
+            <p id="pemail"></p>
+            <p id="pphone"></p>
+        </div>
+
+        <div class="section">
+            <h3>Skills</h3>
+            <p id="pskills"></p>
+        </div>
+
+        <div class="section">
+            <h3>Languages</h3>
+            <p id="planguages"></p>
+        </div>
+    </div>
+
+    <div class="main-content">
+
+        <div class="section">
+            <h1 id="pname"></h1>
+            <h2 id="pjob"></h2>
+        </div>
+
+        <div class="section">
+            <h3>Profile</h3>
+            <p id="psummary"></p>
+        </div>
+
+        <div class="section">
+            <h3>Experience</h3>
+            <p id="pexperience"></p>
+        </div>
+
+        <div class="section">
+            <h3>Education</h3>
+            <p id="peducation"></p>
+        </div>
+
+        <div class="button-section">
+            <button class="edit-btn" onclick="editResume()">Edit Resume</button>
+            <button class="download-btn" onclick="downloadPDF()">Download PDF</button>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
